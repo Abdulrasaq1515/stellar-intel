@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+packages/*/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -31,8 +32,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env
-.env.local
 
 # vercel
 .vercel
@@ -48,3 +47,4 @@ next-env.d.ts
 /issue.md
 /maintainer.md
 /scripts/file-issues.mjs
+config.bat
